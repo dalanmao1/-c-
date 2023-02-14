@@ -1,0 +1,2 @@
+D:\ProgramData\Microsoft\VisualStudio\俄罗斯方块\x64\Debug\俄罗斯方块.exe
+D:\GitHub\项目\俄罗斯方块\project\俄罗斯方块\x64\Debug\俄罗斯方块.exe
