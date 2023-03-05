@@ -1,22 +1,7 @@
-﻿生成启动时间为 2023/2/8 14:24:01。
-日志记录详细程度设置为: Normal。     1>项目“D:\GitHub\项目\俄罗斯方块\project\俄罗斯方块\俄罗斯方块.vcxproj”在节点 2 上(Build 个目标)。
-     1>InitializeBuildStatus:
-         正在创建“x64\Debug\俄罗斯方块.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
-       ClCompile:
-         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl- /Od /D _DEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt Graph.cpp
-         Graph.cpp
-       Link:
-         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\GitHub\项目\俄罗斯方块\project\俄罗斯方块\x64\Debug\俄罗斯方块.exe" /INCREMENTAL /ILK:"x64\Debug\俄罗斯方块.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\GitHub\项目\俄罗斯方块\project\俄罗斯方块\x64\Debug\俄罗斯方块.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\GitHub\项目\俄罗斯方块\project\俄罗斯方块\x64\Debug\俄罗斯方块.lib" /MACHINE:X64 x64\Debug\Graph.obj
-         x64\Debug\main.obj
-         x64\Debug\Music.obj
-         俄罗斯方块.vcxproj -> D:\GitHub\项目\俄罗斯方块\project\俄罗斯方块\x64\Debug\俄罗斯方块.exe
-       FinalizeBuildStatus:
-         正在删除文件“x64\Debug\俄罗斯方块.tlog\unsuccessfulbuild”。
-         正在对“x64\Debug\俄罗斯方块.tlog\俄罗斯方块.lastbuildstate”执行 Touch 任务。
-     1>已完成生成项目“D:\GitHub\项目\俄罗斯方块\project\俄罗斯方块\俄罗斯方块.vcxproj”(Build 个目标)的操作。
-
-已成功生成。
-    0 个警告
-    0 个错误
-
-已用时间 00:00:03.62
+﻿  main.cpp
+D:\GitHub\项目\俄罗斯方块\project\俄罗斯方块\main.cpp(68,9): warning C4244: “return”: 从“const _Rep”转换到“double”，可能丢失数据
+          with
+          [
+              _Rep=__int64
+          ]
+  俄罗斯方块.vcxproj -> D:\GitHub\项目\俄罗斯方块\project\俄罗斯方块\x64\Debug\俄罗斯方块.exe
