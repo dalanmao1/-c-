@@ -4,6 +4,8 @@
 class Music
 {
 public:
+
 	void palyMusic();
+
 };
 

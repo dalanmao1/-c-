@@ -1,0 +1,106 @@
+﻿生成启动时间为 2023/3/6 11:29:36。
+日志记录详细程度设置为: Normal。     1>项目“D:\GitHub\项目\俄罗斯方块\project\俄罗斯方块\俄罗斯方块.vcxproj”在节点 2 上(Build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\俄罗斯方块.tlog\unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt Graph.cpp main.cpp Music.cpp
+         Graph.cpp
+     1>D:\GitHub\项目\俄罗斯方块\project\俄罗斯方块\Graph.cpp(70,2): error C2665: “settextstyle”: 没有重载函数可以转换所有参数类型
+       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\easyx.h(249,6): message : 可能是“void settextstyle(int,int,LPCTSTR)”
+       D:\GitHub\项目\俄罗斯方块\project\俄罗斯方块\Graph.cpp(70,2): message : “void settextstyle(int,int,LPCTSTR)”: 无法将参数 3 从“const char [5]”转换为“LPCTSTR”
+       D:\GitHub\项目\俄罗斯方块\project\俄罗斯方块\Graph.cpp(70,22): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+       D:\GitHub\项目\俄罗斯方块\project\俄罗斯方块\Graph.cpp(70,2): message : 尝试匹配参数列表“(int, int, const char [5])”时
+     1>D:\GitHub\项目\俄罗斯方块\project\俄罗斯方块\Graph.cpp(74,2): error C2665: “outtextxy”: 没有重载函数可以转换所有参数类型
+       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\easyx.h(226,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+       D:\GitHub\项目\俄罗斯方块\project\俄罗斯方块\Graph.cpp(74,2): message : “void outtextxy(int,int,TCHAR)”: 无法将参数 3 从“char [5]”转换为“TCHAR”
+       D:\GitHub\项目\俄罗斯方块\project\俄罗斯方块\Graph.cpp(74,21): message : 没有使该转换得以执行的上下文
+       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\easyx.h(225,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+       D:\GitHub\项目\俄罗斯方块\project\俄罗斯方块\Graph.cpp(74,2): message : “void outtextxy(int,int,LPCTSTR)”: 无法将参数 3 从“char [5]”转换为“LPCTSTR”
+       D:\GitHub\项目\俄罗斯方块\project\俄罗斯方块\Graph.cpp(74,21): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+       D:\GitHub\项目\俄罗斯方块\project\俄罗斯方块\Graph.cpp(74,2): message : 尝试匹配参数列表“(int, int, char [5])”时
+     1>D:\GitHub\项目\俄罗斯方块\project\俄罗斯方块\Graph.cpp(80,2): error C2665: “settextstyle”: 没有重载函数可以转换所有参数类型
+       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\easyx.h(249,6): message : 可能是“void settextstyle(int,int,LPCTSTR)”
+       D:\GitHub\项目\俄罗斯方块\project\俄罗斯方块\Graph.cpp(80,2): message : “void settextstyle(int,int,LPCTSTR)”: 无法将参数 3 从“const char [5]”转换为“LPCTSTR”
+       D:\GitHub\项目\俄罗斯方块\project\俄罗斯方块\Graph.cpp(80,22): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+       D:\GitHub\项目\俄罗斯方块\project\俄罗斯方块\Graph.cpp(80,2): message : 尝试匹配参数列表“(int, int, const char [5])”时
+     1>D:\GitHub\项目\俄罗斯方块\project\俄罗斯方块\Graph.cpp(84,2): error C2665: “outtextxy”: 没有重载函数可以转换所有参数类型
+       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\easyx.h(226,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+       D:\GitHub\项目\俄罗斯方块\project\俄罗斯方块\Graph.cpp(84,2): message : “void outtextxy(int,int,TCHAR)”: 无法将参数 3 从“char [5]”转换为“TCHAR”
+       D:\GitHub\项目\俄罗斯方块\project\俄罗斯方块\Graph.cpp(84,22): message : 没有使该转换得以执行的上下文
+       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\easyx.h(225,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+       D:\GitHub\项目\俄罗斯方块\project\俄罗斯方块\Graph.cpp(84,2): message : “void outtextxy(int,int,LPCTSTR)”: 无法将参数 3 从“char [5]”转换为“LPCTSTR”
+       D:\GitHub\项目\俄罗斯方块\project\俄罗斯方块\Graph.cpp(84,22): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+       D:\GitHub\项目\俄罗斯方块\project\俄罗斯方块\Graph.cpp(84,2): message : 尝试匹配参数列表“(int, int, char [5])”时
+         main.cpp
+     1>D:\GitHub\项目\俄罗斯方块\project\俄罗斯方块\main.cpp(51,4): error C2665: “settextstyle”: 没有重载函数可以转换所有参数类型
+       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\easyx.h(249,6): message : 可能是“void settextstyle(int,int,LPCTSTR)”
+       D:\GitHub\项目\俄罗斯方块\project\俄罗斯方块\main.cpp(51,4): message : “void settextstyle(int,int,LPCTSTR)”: 无法将参数 3 从“const char [5]”转换为“LPCTSTR”
+       D:\GitHub\项目\俄罗斯方块\project\俄罗斯方块\main.cpp(51,24): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+       D:\GitHub\项目\俄罗斯方块\project\俄罗斯方块\main.cpp(51,4): message : 尝试匹配参数列表“(int, int, const char [5])”时
+     1>D:\GitHub\项目\俄罗斯方块\project\俄罗斯方块\main.cpp(54,4): error C2665: “outtextxy”: 没有重载函数可以转换所有参数类型
+       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\easyx.h(226,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+       D:\GitHub\项目\俄罗斯方块\project\俄罗斯方块\main.cpp(54,4): message : “void outtextxy(int,int,TCHAR)”: 无法将参数 3 从“char [10]”转换为“TCHAR”
+       D:\GitHub\项目\俄罗斯方块\project\俄罗斯方块\main.cpp(54,24): message : 没有使该转换得以执行的上下文
+       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\easyx.h(225,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+       D:\GitHub\项目\俄罗斯方块\project\俄罗斯方块\main.cpp(54,4): message : “void outtextxy(int,int,LPCTSTR)”: 无法将参数 3 从“char [10]”转换为“LPCTSTR”
+       D:\GitHub\项目\俄罗斯方块\project\俄罗斯方块\main.cpp(54,24): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+       D:\GitHub\项目\俄罗斯方块\project\俄罗斯方块\main.cpp(54,4): message : 尝试匹配参数列表“(int, int, char [10])”时
+     1>D:\GitHub\项目\俄罗斯方块\project\俄罗斯方块\main.cpp(72,9): warning C4244: “return”: 从“const _Rep”转换到“double”，可能丢失数据
+                 with
+                 [
+                     _Rep=__int64
+                 ]
+         Music.cpp
+     1>D:\GitHub\项目\俄罗斯方块\project\俄罗斯方块\Music.cpp(19,3): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [11]”转换为“LPCWSTR”
+       D:\GitHub\项目\俄罗斯方块\project\俄罗斯方块\Music.cpp(19,17): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+       C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\mciapi.h(87,1): message : 参见“mciSendStringW”的声明
+       D:\GitHub\项目\俄罗斯方块\project\俄罗斯方块\Music.cpp(19,3): message : 尝试匹配参数列表“(const char [11], int, int, int)”时
+     1>D:\GitHub\项目\俄罗斯方块\project\俄罗斯方块\Music.cpp(20,3): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [18]”转换为“LPCWSTR”
+       D:\GitHub\项目\俄罗斯方块\project\俄罗斯方块\Music.cpp(20,17): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+       C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\mciapi.h(87,1): message : 参见“mciSendStringW”的声明
+       D:\GitHub\项目\俄罗斯方块\project\俄罗斯方块\Music.cpp(20,3): message : 尝试匹配参数列表“(const char [18], int, int, int)”时
+     1>D:\GitHub\项目\俄罗斯方块\project\俄罗斯方块\Music.cpp(21,3): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [29]”转换为“LPCWSTR”
+       D:\GitHub\项目\俄罗斯方块\project\俄罗斯方块\Music.cpp(21,17): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+       C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\mciapi.h(87,1): message : 参见“mciSendStringW”的声明
+       D:\GitHub\项目\俄罗斯方块\project\俄罗斯方块\Music.cpp(21,3): message : 尝试匹配参数列表“(const char [29], int, int, int)”时
+     1>D:\GitHub\项目\俄罗斯方块\project\俄罗斯方块\Music.cpp(26,3): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [11]”转换为“LPCWSTR”
+       D:\GitHub\项目\俄罗斯方块\project\俄罗斯方块\Music.cpp(26,17): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+       C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\mciapi.h(87,1): message : 参见“mciSendStringW”的声明
+       D:\GitHub\项目\俄罗斯方块\project\俄罗斯方块\Music.cpp(26,3): message : 尝试匹配参数列表“(const char [11], int, int, int)”时
+     1>D:\GitHub\项目\俄罗斯方块\project\俄罗斯方块\Music.cpp(27,3): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [18]”转换为“LPCWSTR”
+       D:\GitHub\项目\俄罗斯方块\project\俄罗斯方块\Music.cpp(27,17): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+       C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\mciapi.h(87,1): message : 参见“mciSendStringW”的声明
+       D:\GitHub\项目\俄罗斯方块\project\俄罗斯方块\Music.cpp(27,3): message : 尝试匹配参数列表“(const char [18], int, int, int)”时
+     1>D:\GitHub\项目\俄罗斯方块\project\俄罗斯方块\Music.cpp(28,3): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [29]”转换为“LPCWSTR”
+       D:\GitHub\项目\俄罗斯方块\project\俄罗斯方块\Music.cpp(28,17): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+       C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\mciapi.h(87,1): message : 参见“mciSendStringW”的声明
+       D:\GitHub\项目\俄罗斯方块\project\俄罗斯方块\Music.cpp(28,3): message : 尝试匹配参数列表“(const char [29], int, int, int)”时
+         正在生成代码...
+     1>已完成生成项目“D:\GitHub\项目\俄罗斯方块\project\俄罗斯方块\俄罗斯方块.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+       “D:\GitHub\项目\俄罗斯方块\project\俄罗斯方块\俄罗斯方块.vcxproj”(Build 目标) (1) ->
+       (ClCompile 目标) -> 
+         D:\GitHub\项目\俄罗斯方块\project\俄罗斯方块\main.cpp(72,9): warning C4244: “return”: 从“const _Rep”转换到“double”，可能丢失数据
+
+
+       “D:\GitHub\项目\俄罗斯方块\project\俄罗斯方块\俄罗斯方块.vcxproj”(Build 目标) (1) ->
+       (ClCompile 目标) -> 
+         D:\GitHub\项目\俄罗斯方块\project\俄罗斯方块\Graph.cpp(70,2): error C2665: “settextstyle”: 没有重载函数可以转换所有参数类型
+         D:\GitHub\项目\俄罗斯方块\project\俄罗斯方块\Graph.cpp(74,2): error C2665: “outtextxy”: 没有重载函数可以转换所有参数类型
+         D:\GitHub\项目\俄罗斯方块\project\俄罗斯方块\Graph.cpp(80,2): error C2665: “settextstyle”: 没有重载函数可以转换所有参数类型
+         D:\GitHub\项目\俄罗斯方块\project\俄罗斯方块\Graph.cpp(84,2): error C2665: “outtextxy”: 没有重载函数可以转换所有参数类型
+         D:\GitHub\项目\俄罗斯方块\project\俄罗斯方块\main.cpp(51,4): error C2665: “settextstyle”: 没有重载函数可以转换所有参数类型
+         D:\GitHub\项目\俄罗斯方块\project\俄罗斯方块\main.cpp(54,4): error C2665: “outtextxy”: 没有重载函数可以转换所有参数类型
+         D:\GitHub\项目\俄罗斯方块\project\俄罗斯方块\Music.cpp(19,3): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [11]”转换为“LPCWSTR”
+         D:\GitHub\项目\俄罗斯方块\project\俄罗斯方块\Music.cpp(20,3): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [18]”转换为“LPCWSTR”
+         D:\GitHub\项目\俄罗斯方块\project\俄罗斯方块\Music.cpp(21,3): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [29]”转换为“LPCWSTR”
+         D:\GitHub\项目\俄罗斯方块\project\俄罗斯方块\Music.cpp(26,3): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [11]”转换为“LPCWSTR”
+         D:\GitHub\项目\俄罗斯方块\project\俄罗斯方块\Music.cpp(27,3): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [18]”转换为“LPCWSTR”
+         D:\GitHub\项目\俄罗斯方块\project\俄罗斯方块\Music.cpp(28,3): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [29]”转换为“LPCWSTR”
+
+    1 个警告
+    12 个错误
+
+已用时间 00:00:05.33

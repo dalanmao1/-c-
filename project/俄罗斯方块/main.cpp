@@ -24,23 +24,27 @@ int main()
 	auto timeRefresh = timer();
 	while (1)
 	{
-		
-		if(_kbhit() && graph.startFlag)//如果键盘有输入
+		//控制方块移动
+		if (_kbhit() && graph.startFlag)//如果键盘有输入
+		{
 			graph.keyPlay();
-
+		}
+			
+		//自动下落
 		if ((timer()- timeDown) >= (MaxtimeDown-graph.speed) && graph.startFlag)
 		{
 			graph.moveDown();
 			timeDown = timer();
 		}
-
-		if ((timer() - timeRefresh) >= MaxtimeRefresh)//屏幕刷新
+		//屏幕刷新
+		if ((timer() - timeRefresh) >= MaxtimeRefresh)
 		{
 			graph.updateScreen();
 			timeRefresh = timer();
 		}	
 		graph.clearBlock();
 
+		//游戏结束
 		if (!graph.startFlag)
 		{
 			settextcolor(WHITE);
@@ -49,11 +53,11 @@ int main()
 			char s[10] = "Game Over";
 			outtextxy(300, 280, s);
 
-			if (_kbhit() && _getch() == 32)//如果键盘有输入
+			if (_kbhit() && _getch() == 13)//如果键盘有输入
 			{
 				graph.init();
 			}
-		}
+		}	
 	}
 	return 0;
 }
