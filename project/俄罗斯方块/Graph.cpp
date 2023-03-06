@@ -45,7 +45,7 @@ void Graph::random()
 	for (int i = 0; i < 4; i++)
 	{
 		smallBlock[i][0] = blocks[blockType][i] / 2;
-		smallBlock[i][1] = blocks[blockType][i] % 2 + 1;//初始列号+1
+		smallBlock[i][1] = blocks[blockType][i] % 2 + 1;//离左边界一格显示，方便变形
 	}
 	colBasis = 0;
 	rowBasis = 0;
@@ -126,6 +126,7 @@ void Graph::keyPlay()
 	printf("消息：%d\n", ch);
 	switch (ch)
 	{
+		//WASD键（小写）
 		case 119: changeBlock();//上键
 			break;
 		case 97: moveLeft();//左键
@@ -134,6 +135,15 @@ void Graph::keyPlay()
 			break;
 		case 100: moveRight();//右键
 			break; 
+		//上下左右键
+		case 72: changeBlock();//上键
+			break;
+		case 75: moveLeft();//左键
+			break;
+		case 80: moveDown();//下键
+			break;
+		case 77: moveRight();//右键
+			break;
 	}
 	
 		//memset(&messageBuf, '\0', sizeof(messageBuf));

@@ -18,7 +18,7 @@ int main()
 	unsigned int timeRefresh = 0.02;*/
 
 	graph.init();
-	//_sleep(1000);
+	_sleep(1000);
 	music.palyMusic();
 	auto timeDown = timer();
 	auto timeRefresh = timer();
